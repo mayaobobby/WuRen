@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4831bce6d1e2c448ca52f93e7e4c6a61, type: 3}
+  m_Name: id_20
+  m_EditorClassIdentifier: 
+  cardtype: {fileID: 11400000, guid: 1334f074233ec4fc4a79f2f03220e1e7, type: 2}
+  properties:
+  - stringValue: "\u7EA2\u8863\u82B1\u9B41"
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 93ee88951b6c14ea1ac7fc6b9dc1d043, type: 2}
+  - stringValue: "\u65E0\u7279\u6B8A\u6548\u679C\uFF0C\u51FB\u8D25\u5956\u52B1+6"
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 7ad25b57e48dc4005b622fbb31424635, type: 2}
+  - stringValue: "\u201C\u4F60\u597D\u9A9A\u554A\uFF5E\u201D"
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 8ca516d40fdad428abef02e31bcd625b, type: 2}
+  - stringValue: Design by Victor
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 8ab304ee5af3d40b58c1a8fe94883d71, type: 2}
+  - stringValue: 
+    intValue: 0
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 49782aef7ba004b20b5323452398bbdb, type: 2}
+  - stringValue: 
+    intValue: 5
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: e9bef63a9653d417d92ef4177f77d761, type: 2}
+  - stringValue: 
+    intValue: 5
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: d79259c8ab36049eda92f411683ee1ea, type: 2}
+  - stringValue: 
+    intValue: 6
+    sprite: {fileID: 0}
+    element: {fileID: 11400000, guid: 33f1f4f48d63d45deacc6ab38c44d63a, type: 2}
