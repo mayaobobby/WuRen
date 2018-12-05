@@ -1,0 +1,13 @@
+﻿using UnityEngine;
+using System.Collections;
+
+
+namespace SA.GameElements
+{
+    public abstract class GE_Logic : ScriptableObject
+    {
+        public abstract void OnClick(CardInstance instance);
+
+        public abstract void OnHighlight(CardInstance instance);
+    }
+}

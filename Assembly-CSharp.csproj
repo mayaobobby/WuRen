@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2EA5896A-EF1E-6750-4A8B-2CB082CA2B5D}</ProjectGuid>
+    <ProjectGuid>{6002AB13-6352-92A9-1259-51723A2EC5FE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,6 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Actions\Action.cs" />
+     <Compile Include="Assets\Scripts\Actions\MouseClick.cs" />
+     <Compile Include="Assets\Scripts\Actions\MouseOverDetection.cs" />
      <Compile Include="Assets\Scripts\Cards\Card.cs" />
      <Compile Include="Assets\Scripts\Cards\CardProperties.cs" />
      <Compile Include="Assets\Scripts\Cards\CardType.cs" />
@@ -65,24 +68,26 @@
      <Compile Include="Assets\Scripts\Cards\ElementText.cs" />
      <Compile Include="Assets\Scripts\Cards\SpellCard.cs" />
      <Compile Include="Assets\Scripts\GameElements\CardInstance.cs" />
+     <Compile Include="Assets\Scripts\GameElements\GE_Logic.cs" />
+     <Compile Include="Assets\Scripts\GameElements\HandCard.cs" />
+     <Compile Include="Assets\Scripts\GameElements\MyCardOnTheTable.cs" />
+     <Compile Include="Assets\Scripts\GameElements\NewMonoBehaviour.cs" />
+     <Compile Include="Assets\Scripts\GameElements\State.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IClickable.cs" />
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
      <Compile Include="Assets\Scripts\Managers\ResourcesManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Settings.cs" />
-     <Compile Include="Assets\Scripts\States\Action.cs" />
-     <Compile Include="Assets\Scripts\States\MouseOverDetection.cs" />
-     <Compile Include="Assets\Scripts\States\State.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>/Users/mayaobobby/Desktop/Unity_Project/project_test/Unity_Card_Test/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>/Users/mayaobobby/Desktop/Unity_Project/WuRen/WuRen/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/mayaobobby/Desktop/Unity_Project/project_test/Unity_Card_Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/mayaobobby/Desktop/Unity_Project/WuRen/WuRen/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/mayaobobby/Desktop/Unity_Project/project_test/Unity_Card_Test/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/Users/mayaobobby/Desktop/Unity_Project/WuRen/WuRen/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/mayaobobby/Desktop/Unity_Project/project_test/Unity_Card_Test/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/mayaobobby/Desktop/Unity_Project/WuRen/WuRen/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

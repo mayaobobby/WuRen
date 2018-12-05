@@ -8,8 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b1b2892d7adb4035b35ccd4c13bed60, type: 3}
+  m_Script: {fileID: 11500000, guid: bd9d3e1844aa443e3a26e047e3b32183, type: 3}
   m_Name: PlayerState
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 11400000, guid: 522f1ea2aaaba4073b9b7e3ba3ecf94f, type: 2}
+  - {fileID: 11400000, guid: e04a04f2664714d32bcf9bc573b62616, type: 2}
+  - {fileID: 11400000, guid: 63bb4daefa0214a0f934df78d41a99e8, type: 2}
